@@ -1,0 +1,23 @@
+# Maintainer roster for KusionStack
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+#  Maintainers: Please connect your GitHub handle to your LFID on openprofile.dev to enable automatic access to CNCF resources. The system will use your primary email address for setup.
+maintainers:
+  - project_id: "kusionstack"
+    org: "KusionStack"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - adohe
+          - SparkYuan
+          - elliotxx
+          - liu-hm19
+          - Yangyang96
+          - ffforest
+          - ruquanzhao
+          - wu8685
+          - zoumo
+          - shaofan-hs
+          - ColdsteelRail
+          - Eikykun

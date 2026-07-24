@@ -1,0 +1,74 @@
+# .project metadata for KusionStack
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "kusionstack"
+name: "KusionStack"
+description: "Declarative Intent Driven Platform Orchestrator for Internal Developer Platform (IDP)"
+type: "project"
+project_lead: "adohe" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#kusionstack"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2024-09-12T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/295" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/KusionStack/kusion"
+
+website: "https://kusionstack.io/"
+
+artwork: "https://landscape.cncf.io/logos/kusionstack.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/KusionStack/kusion/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "KusionStack/kusion"
+
+social:
+  twitter: "https://twitter.com/KusionStack"
+
+security:
+  policy:
+    path: "https://github.com/KusionStack/.github/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/KusionStack/kusion/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/KusionStack/kusion/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/KusionStack/kusion/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/KusionStack/kusion/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/KusionStack/kusion/blob/main/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Automation & Configuration"
+
+# CLOMonitor Score: 74/100
+# Documentation: 98 | License: 75 | Best Practices: 32 | Security: 60
