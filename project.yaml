@@ -27,7 +27,7 @@ repositories:
 
 website: "https://kusionstack.io/"
 
-artwork: "https://landscape.cncf.io/logos/kusionstack.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/kusionstack"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
